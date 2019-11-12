@@ -11,6 +11,32 @@
 		B25C8284237A4CF00029ACA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25C8282237A4CF00029ACA6 /* LaunchScreen.storyboard */; };
 		B25C828F237A4CF00029ACA6 /* bledtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C828E237A4CF00029ACA6 /* bledtTests.swift */; };
 		B25C829B237A4E580029ACA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C829A237A4E580029ACA6 /* AppDelegate.swift */; };
+		B2B0E262237A579900F139E0 /* BatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E248237A579900F139E0 /* BatchManager.swift */; };
+		B2B0E263237A579900F139E0 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E249237A579900F139E0 /* Sample.swift */; };
+		B2B0E264237A579900F139E0 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E24A237A579900F139E0 /* Coordinate.swift */; };
+		B2B0E265237A579900F139E0 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E24B237A579900F139E0 /* Batch.swift */; };
+		B2B0E266237A579900F139E0 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2B0E24C237A579900F139E0 /* data.txt */; };
+		B2B0E267237A579900F139E0 /* TextualInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E24F237A579900F139E0 /* TextualInteractor.swift */; };
+		B2B0E268237A579900F139E0 /* TextualPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E250237A579900F139E0 /* TextualPresenter.swift */; };
+		B2B0E269237A579900F139E0 /* TextualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E251237A579900F139E0 /* TextualViewController.swift */; };
+		B2B0E26A237A579900F139E0 /* TextualRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E252237A579900F139E0 /* TextualRouter.swift */; };
+		B2B0E26B237A579900F139E0 /* GraphicInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E254237A579900F139E0 /* GraphicInteractor.swift */; };
+		B2B0E26C237A579900F139E0 /* GraphicRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E255237A579900F139E0 /* GraphicRouter.swift */; };
+		B2B0E26D237A579900F139E0 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E257237A579900F139E0 /* GraphView.swift */; };
+		B2B0E26E237A579900F139E0 /* GraphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E258237A579900F139E0 /* GraphLabel.swift */; };
+		B2B0E26F237A579900F139E0 /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E259237A579900F139E0 /* GraphModel.swift */; };
+		B2B0E270237A579900F139E0 /* GraphicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E25A237A579900F139E0 /* GraphicPresenter.swift */; };
+		B2B0E271237A579900F139E0 /* GraphicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E25B237A579900F139E0 /* GraphicViewController.swift */; };
+		B2B0E272237A579900F139E0 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E25D237A579900F139E0 /* Storage.swift */; };
+		B2B0E273237A579900F139E0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E25E237A579900F139E0 /* DataManager.swift */; };
+		B2B0E274237A579900F139E0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E25F237A579900F139E0 /* Network.swift */; };
+		B2B0E275237A579900F139E0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E260237A579900F139E0 /* String.swift */; };
+		B2B0E276237A579900F139E0 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E261237A579900F139E0 /* RootRouter.swift */; };
+		B2B0E27C237A57D900F139E0 /* DataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E277237A57D900F139E0 /* DataManagerTests.swift */; };
+		B2B0E27D237A57D900F139E0 /* BatchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E278237A57D900F139E0 /* BatchManagerTests.swift */; };
+		B2B0E27E237A57D900F139E0 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E279237A57D900F139E0 /* NetworkTests.swift */; };
+		B2B0E27F237A57D900F139E0 /* StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E27A237A57D900F139E0 /* StorageTests.swift */; };
+		B2B0E280237A57D900F139E0 /* TextualModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0E27B237A57D900F139E0 /* TextualModuleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +59,32 @@
 		B25C8290237A4CF00029ACA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B25C8299237A4E570029ACA6 /* bledt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bledt-Bridging-Header.h"; sourceTree = "<group>"; };
 		B25C829A237A4E580029ACA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2B0E248237A579900F139E0 /* BatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchManager.swift; sourceTree = "<group>"; };
+		B2B0E249237A579900F139E0 /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		B2B0E24A237A579900F139E0 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		B2B0E24B237A579900F139E0 /* Batch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Batch.swift; sourceTree = "<group>"; };
+		B2B0E24C237A579900F139E0 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		B2B0E24F237A579900F139E0 /* TextualInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextualInteractor.swift; sourceTree = "<group>"; };
+		B2B0E250237A579900F139E0 /* TextualPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextualPresenter.swift; sourceTree = "<group>"; };
+		B2B0E251237A579900F139E0 /* TextualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextualViewController.swift; sourceTree = "<group>"; };
+		B2B0E252237A579900F139E0 /* TextualRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextualRouter.swift; sourceTree = "<group>"; };
+		B2B0E254237A579900F139E0 /* GraphicInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicInteractor.swift; sourceTree = "<group>"; };
+		B2B0E255237A579900F139E0 /* GraphicRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicRouter.swift; sourceTree = "<group>"; };
+		B2B0E257237A579900F139E0 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B2B0E258237A579900F139E0 /* GraphLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphLabel.swift; sourceTree = "<group>"; };
+		B2B0E259237A579900F139E0 /* GraphModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphModel.swift; sourceTree = "<group>"; };
+		B2B0E25A237A579900F139E0 /* GraphicPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicPresenter.swift; sourceTree = "<group>"; };
+		B2B0E25B237A579900F139E0 /* GraphicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicViewController.swift; sourceTree = "<group>"; };
+		B2B0E25D237A579900F139E0 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B2B0E25E237A579900F139E0 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B2B0E25F237A579900F139E0 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B2B0E260237A579900F139E0 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B2B0E261237A579900F139E0 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		B2B0E277237A57D900F139E0 /* DataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
+		B2B0E278237A57D900F139E0 /* BatchManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchManagerTests.swift; sourceTree = "<group>"; };
+		B2B0E279237A57D900F139E0 /* NetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		B2B0E27A237A57D900F139E0 /* StorageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageTests.swift; sourceTree = "<group>"; };
+		B2B0E27B237A57D900F139E0 /* TextualModuleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextualModuleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +131,10 @@
 				B25C8285237A4CF00029ACA6 /* Info.plist */,
 				B25C829A237A4E580029ACA6 /* AppDelegate.swift */,
 				B25C8299237A4E570029ACA6 /* bledt-Bridging-Header.h */,
+				B2B0E247237A579900F139E0 /* Entities */,
+				B2B0E25C237A579900F139E0 /* Global */,
+				B2B0E24D237A579900F139E0 /* Modules */,
+				B2B0E261237A579900F139E0 /* RootRouter.swift */,
 			);
 			path = bledt;
 			sourceTree = "<group>";
@@ -87,9 +143,79 @@
 			isa = PBXGroup;
 			children = (
 				B25C828E237A4CF00029ACA6 /* bledtTests.swift */,
+				B2B0E278237A57D900F139E0 /* BatchManagerTests.swift */,
+				B2B0E277237A57D900F139E0 /* DataManagerTests.swift */,
+				B2B0E279237A57D900F139E0 /* NetworkTests.swift */,
+				B2B0E27A237A57D900F139E0 /* StorageTests.swift */,
+				B2B0E27B237A57D900F139E0 /* TextualModuleTests.swift */,
 				B25C8290237A4CF00029ACA6 /* Info.plist */,
 			);
 			path = bledtTests;
+			sourceTree = "<group>";
+		};
+		B2B0E247237A579900F139E0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E248237A579900F139E0 /* BatchManager.swift */,
+				B2B0E249237A579900F139E0 /* Sample.swift */,
+				B2B0E24A237A579900F139E0 /* Coordinate.swift */,
+				B2B0E24B237A579900F139E0 /* Batch.swift */,
+				B2B0E24C237A579900F139E0 /* data.txt */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B2B0E24D237A579900F139E0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E24E237A579900F139E0 /* Textual */,
+				B2B0E253237A579900F139E0 /* Graphic */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B2B0E24E237A579900F139E0 /* Textual */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E24F237A579900F139E0 /* TextualInteractor.swift */,
+				B2B0E250237A579900F139E0 /* TextualPresenter.swift */,
+				B2B0E251237A579900F139E0 /* TextualViewController.swift */,
+				B2B0E252237A579900F139E0 /* TextualRouter.swift */,
+			);
+			path = Textual;
+			sourceTree = "<group>";
+		};
+		B2B0E253237A579900F139E0 /* Graphic */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E254237A579900F139E0 /* GraphicInteractor.swift */,
+				B2B0E255237A579900F139E0 /* GraphicRouter.swift */,
+				B2B0E256237A579900F139E0 /* Graph */,
+				B2B0E25A237A579900F139E0 /* GraphicPresenter.swift */,
+				B2B0E25B237A579900F139E0 /* GraphicViewController.swift */,
+			);
+			path = Graphic;
+			sourceTree = "<group>";
+		};
+		B2B0E256237A579900F139E0 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E257237A579900F139E0 /* GraphView.swift */,
+				B2B0E258237A579900F139E0 /* GraphLabel.swift */,
+				B2B0E259237A579900F139E0 /* GraphModel.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		B2B0E25C237A579900F139E0 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0E25D237A579900F139E0 /* Storage.swift */,
+				B2B0E25E237A579900F139E0 /* DataManager.swift */,
+				B2B0E25F237A579900F139E0 /* Network.swift */,
+				B2B0E260237A579900F139E0 /* String.swift */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25C8284237A4CF00029ACA6 /* LaunchScreen.storyboard in Resources */,
+				B2B0E266237A579900F139E0 /* data.txt in Resources */,
 				B25C8281237A4CF00029ACA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,7 +320,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B0E268237A579900F139E0 /* TextualPresenter.swift in Sources */,
+				B2B0E26B237A579900F139E0 /* GraphicInteractor.swift in Sources */,
+				B2B0E275237A579900F139E0 /* String.swift in Sources */,
+				B2B0E26F237A579900F139E0 /* GraphModel.swift in Sources */,
+				B2B0E276237A579900F139E0 /* RootRouter.swift in Sources */,
+				B2B0E271237A579900F139E0 /* GraphicViewController.swift in Sources */,
+				B2B0E270237A579900F139E0 /* GraphicPresenter.swift in Sources */,
+				B2B0E26E237A579900F139E0 /* GraphLabel.swift in Sources */,
+				B2B0E262237A579900F139E0 /* BatchManager.swift in Sources */,
+				B2B0E273237A579900F139E0 /* DataManager.swift in Sources */,
+				B2B0E26C237A579900F139E0 /* GraphicRouter.swift in Sources */,
+				B2B0E265237A579900F139E0 /* Batch.swift in Sources */,
+				B2B0E267237A579900F139E0 /* TextualInteractor.swift in Sources */,
+				B2B0E269237A579900F139E0 /* TextualViewController.swift in Sources */,
+				B2B0E274237A579900F139E0 /* Network.swift in Sources */,
+				B2B0E263237A579900F139E0 /* Sample.swift in Sources */,
 				B25C829B237A4E580029ACA6 /* AppDelegate.swift in Sources */,
+				B2B0E264237A579900F139E0 /* Coordinate.swift in Sources */,
+				B2B0E26A237A579900F139E0 /* TextualRouter.swift in Sources */,
+				B2B0E272237A579900F139E0 /* Storage.swift in Sources */,
+				B2B0E26D237A579900F139E0 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25C828F237A4CF00029ACA6 /* bledtTests.swift in Sources */,
+				B2B0E27D237A57D900F139E0 /* BatchManagerTests.swift in Sources */,
+				B2B0E27E237A57D900F139E0 /* NetworkTests.swift in Sources */,
+				B2B0E27C237A57D900F139E0 /* DataManagerTests.swift in Sources */,
+				B2B0E27F237A57D900F139E0 /* StorageTests.swift in Sources */,
+				B2B0E280237A57D900F139E0 /* TextualModuleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digices.bledt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "bledt/bledt-Bridging-Header.h";
@@ -376,6 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digices.bledt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "bledt/bledt-Bridging-Header.h";
