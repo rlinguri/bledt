@@ -1,0 +1,19 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/digices/Developer/Projects/EkoSG/bledt/bledt/Global/DataManager.swift",
+      "line": 62,
+      "symbol": "DataManager.fileName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/digices/Developer/Projects/EkoSG/bledt/bledt/Global/DataManager.swift",
+      "line": 64,
+      "symbol": "DataManager.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/digices/Developer/Projects/EkoSG/bledt"
+}

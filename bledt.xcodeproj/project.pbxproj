@@ -50,7 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B25C8274237A4CEF0029ACA6 /* bledt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bledt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C8274237A4CEF0029ACA6 /* BLEDT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEDT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25C8280237A4CF00029ACA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B25C8283237A4CF00029ACA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B25C8285237A4CF00029ACA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		B25C8275237A4CEF0029ACA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B25C8274237A4CEF0029ACA6 /* bledt.app */,
+				B25C8274237A4CEF0029ACA6 /* BLEDT.app */,
 				B25C828A237A4CF00029ACA6 /* bledtTests.xctest */,
 			);
 			name = Products;
@@ -235,7 +235,7 @@
 			);
 			name = bledt;
 			productName = bledt;
-			productReference = B25C8274237A4CEF0029ACA6 /* bledt.app */;
+			productReference = B25C8274237A4CEF0029ACA6 /* BLEDT.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B25C8289237A4CF00029ACA6 /* bledtTests */ = {
@@ -508,7 +508,7 @@
 				);
 				MARKETING_VERSION = 0.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digices.bledt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BLEDT;
 				SWIFT_OBJC_BRIDGING_HEADER = "bledt/bledt-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -531,7 +531,7 @@
 				);
 				MARKETING_VERSION = 0.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digices.bledt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BLEDT;
 				SWIFT_OBJC_BRIDGING_HEADER = "bledt/bledt-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
